@@ -1,0 +1,98 @@
+/* style.css */
+
+body {
+	align-content: middle;
+}
+
+/* liste */
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li {
+ 
+  	display: inline;
+  	text-align: center;
+}
+
+li a {
+
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* hn */
+
+h2 {
+  color: red;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+/* container */
+
+.container1 {
+  width: 800px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+/* div */
+
+.div-one {
+	background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+/* image */
+
+.perfect-circle {
+  width: 200px;
+	height: auto;
+	border-radius: 50%;
+}
+
+/* image */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.column {
+  float: left;
+  	display: inline;
+  	text-align: center;
+  width: 20%;
+    
+  transition: 0.3s;
+  padding: 18px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
